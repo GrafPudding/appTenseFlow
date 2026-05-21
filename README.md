@@ -2,7 +2,7 @@
 
 Real-time face detection app powered by TensorFlow.js, running 100% on-device without internet connection.
 
-## 🧠 On-Device AI
+## On-Device AI
 
 Built with **BlazeFace** (TensorFlow.js) for real-time face detection directly in the device's WebView — no cloud dependency for inference.
 
@@ -14,7 +14,7 @@ Built with **BlazeFace** (TensorFlow.js) for real-time face detection directly i
 | Runtime | TensorFlow.js WebGL backend |
 | Inference | <50ms on mid-range devices |
 
-## 🛠️ Stack
+##  Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -24,7 +24,7 @@ Built with **BlazeFace** (TensorFlow.js) for real-time face detection directly i
 | Backend | WebGL (GPU-accelerated) |
 | Build | Vite 8 |
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 # Install dependencies
@@ -44,7 +44,7 @@ cd android
 ./gradlew assembleDebug
 ```
 
-## 📱 Features
+## Features
 
 - **Real-time face detection** with bounding box
 - **Facial landmarks** (eyes, nose, mouth) overlay
@@ -52,7 +52,7 @@ cd android
 - **Fully offline** — no internet required after initial model load
 - **Native app** look with Ionic dark theme
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 src/
@@ -69,7 +69,7 @@ src/
 └── main.ts                 # App entry point
 ```
 
-## 📊 Performance Targets
+## Performance Targets
 
 | Metric | Target | Acceptable |
 |--------|--------|------------|
@@ -77,7 +77,3 @@ src/
 | Inference latency | <50ms | <100ms |
 | Model load time | <3s | <5s |
 | APK size | <30MB | <50MB |
-
-## 📸 License
-
-Academic project for DAM coursework.
